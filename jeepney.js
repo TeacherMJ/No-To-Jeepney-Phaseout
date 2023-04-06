@@ -15,6 +15,7 @@ light.position.set(10, 10, 10);
 scene.add(light);
 
 // Texture ng jeep dito
+var texturePath = 'jeepney-texture.jpg';
 var textureLoader = new THREE.TextureLoader();
 var jeepneyTexture = textureLoader.load('jeepney-texture.jpg');
 
