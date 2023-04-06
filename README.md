@@ -1,7 +1,7 @@
 # No-To-Jeepney-Phaseout
 
 
-A website written with three.js and containing 3D objects, created as part of protest against the plan of the Philippine government to phaseout jeepneys leaving tens of thousands with no livelihood and forcing jeepney drivers and operators to incorporate and take out loans with exorbitant rates to finance the new e-jeeps.  
+A website written with three.js and containing 3D objects, created as part of protest against the plan of the Philippine government to phaseout jeepneys leaving tens of thousands with no livelihood and forcing jeepney drivers and operators to incorporate and take out loans with exorbitant interest rates to finance the new e-jeeps.  
 
 This deal will surely tie public transportation to the real estate and shopping mall industries and the drivers and operators will be dependent on foreign companies for parts. 
 
