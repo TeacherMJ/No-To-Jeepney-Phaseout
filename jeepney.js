@@ -14,6 +14,27 @@ var light = new THREE.PointLight(0xffffff, 1, 0);
 light.position.set(10, 10, 10);
 scene.add(light);
 
+// placeholder vehicle habang gumagawa pako ng jeep:
+
+// Create a new OBJLoader
+const loader = new THREE.OBJLoader();
+
+// Load the .obj file
+loader.load(
+    'testfile.obj',
+
+    function (object) {
+        scene.add(object);
+    },
+    function (xhr) {
+        console.log((xhr.loaded / xhr.total * 100) + '% loaded');
+    },
+    function (error) {
+        console.log('An error happened while loading the .obj file');
+    }
+);
+
+
 // Texture ng jeep dito
 var textureLoader = new THREE.TextureLoader();
 var jeepneyTexture = textureLoader.load('jeepney-texture.jpg');
